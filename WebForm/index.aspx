@@ -33,7 +33,7 @@
     <form id="form1" runat="server">
     <div>
         <h1>WebGIS实验三</h1>
-        <table class="t">
+        <table class="t" id ="tab1" runat="server">
             <thead>
                 <tr>
                     <td>姓名</td>
