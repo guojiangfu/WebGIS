@@ -63,7 +63,12 @@
                 </tr>
             </tbody>
         </table> 
-       <asp:Button runat="server" ID="BtnSelect" text="加载" Width="80px" Height="30px" OnClick="BtnLoad_Click"/>
+       <asp:Button runat="server" ID="BtnLoad" text="加载" Width="80px" Height="30px" OnClick="BtnLoad_Click"/>
+        <asp:Button runat="server" ID="BtnAdd" text="添加" Width="80px" Height="30px" OnClick="BtnAdd_Click"/>
+        <asp:Button ID="BtnDel" runat="server" OnClick="BtnDel_Click" Text="删除" Width="80px" Height="30px"/>
+        <asp:Button ID="BtnUpdate" runat="server" OnClick="BtnUpdate_Click" Text="修改" Width="80px" Height="30px" />
+        <asp:Button ID="BtnSelect" runat="server" OnClick="BtnSelect_Click" Text="查询" Width="80px" Height="30px" />
+        <asp:Button ID="BtnClose" runat="server" Text="断开数据库"  Width="80px" Height="30px" OnClick="BtnClose_Click"/>
     </div>
   </form>
 </body>
